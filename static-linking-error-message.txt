@@ -1,0 +1,27 @@
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: ../OpencvInstallation/lib/libopencv_core.a(opencl_core.cpp.o): in function `opencl_check_fn(int)':
+opencl_core.cpp:(.text._ZL15opencl_check_fni+0x194): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libc.a(libc-start.o): in function `call_fini':
+(.text+0x4): undefined reference to `__fini_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x8): undefined reference to `__fini_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x14): undefined reference to `__fini_array_end'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x18): undefined reference to `__fini_array_end'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x28): undefined reference to `__fini_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x2c): undefined reference to `__fini_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libc.a(libc-start.o): in function `__libc_start_main_impl':
+(.text+0x378): undefined reference to `__preinit_array_end'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x37c): undefined reference to `__preinit_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x380): undefined reference to `__preinit_array_end'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x384): undefined reference to `__preinit_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x3c0): undefined reference to `__init_array_end'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x3c4): undefined reference to `__init_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x3c8): undefined reference to `__init_array_end'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: (.text+0x3cc): undefined reference to `__init_array_start'
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libc.a(dl-debug.o): relocation R_AARCH64_ADR_PREL_PG_HI21 against symbol `_dl_debug_state' which may bind externally can not be used when making a shared object; recompile with -fPIC
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libc.a(dl-debug.o): in function `_dl_debug_initialize':
+(.text+0x94): dangerous relocation: unsupported relocation
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: libmyTestLibrary.so: hidden symbol `__fini_array_end' isn't defined
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/myTestLibrary.dir/build.make:112: libmyTestLibrary.so] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/myTestLibrary.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
