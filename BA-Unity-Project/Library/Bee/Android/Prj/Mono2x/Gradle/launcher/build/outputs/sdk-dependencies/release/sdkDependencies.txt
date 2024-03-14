@@ -1,0 +1,31 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "ArucoBridgeLibC-debug"
+  }
+  digests {
+    sha256: "\033\r<\t\354}|\230_\226H\337\372\b\242\204:\374\3743\252\276N\272\231\357\245\233\362-w\232"
+  }
+}
+library {
+  digests {
+    sha256: "\312\364\343T;\b`\372\371\375I\\9\025s\362J*\037\353\v\245P\313?\r\320\326\234\277%6"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}

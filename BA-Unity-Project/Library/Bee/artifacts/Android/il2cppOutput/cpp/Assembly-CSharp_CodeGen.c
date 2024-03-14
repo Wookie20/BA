@@ -1,0 +1,83 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void OpenCVManager_InitOpenFrame_m1D79B8DBAA843536638A3ACC08DFE0F0637E6F00 (void);
+extern void OpenCVManager_GetFeatures_m500CE951F131C6F183A7C9802A35E93A83AB84D4 (void);
+extern void OpenCVManager_Start_m7B616C872D81A38C53F281834052DD5C4E983CB0 (void);
+extern void OpenCVManager_Update_m929CC62E0DEA27C1D48751358FD72F83DC875FC1 (void);
+extern void OpenCVManager_ProcessOpenCVFrame_m1FEBFBE45A36C56C1F27001222711027CA216D18 (void);
+extern void OpenCVManager__ctor_m4CE4443B2D7314F0909FA2D2E742DA61BE6BB860 (void);
+extern void OpenCVManager2_InitOpenFrame_m884C1CE53FB08091687269383BD70E4E3B1CF9AF (void);
+extern void OpenCVManager2_GetFeatures_mCC559D405B1FC0A95B623388C93DD511292CA80D (void);
+extern void OpenCVManager2_GetArucoDrawing_mA46FA82CE7D88744D755CDC0497BFFDB49154CDA (void);
+extern void OpenCVManager2_Start_m63B54C2D576A68C27B311750D55BD86C39660225 (void);
+extern void OpenCVManager2_Update_m40F23DECBA8C4D86BF36AE8D5612B6718F64B89F (void);
+extern void OpenCVManager2__ctor_mAA23ECBA7F1952ED74DB2C7A48CE6C01BEE2999E (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[14] = 
+{
+	OpenCVManager_InitOpenFrame_m1D79B8DBAA843536638A3ACC08DFE0F0637E6F00,
+	OpenCVManager_GetFeatures_m500CE951F131C6F183A7C9802A35E93A83AB84D4,
+	OpenCVManager_Start_m7B616C872D81A38C53F281834052DD5C4E983CB0,
+	OpenCVManager_Update_m929CC62E0DEA27C1D48751358FD72F83DC875FC1,
+	OpenCVManager_ProcessOpenCVFrame_m1FEBFBE45A36C56C1F27001222711027CA216D18,
+	OpenCVManager__ctor_m4CE4443B2D7314F0909FA2D2E742DA61BE6BB860,
+	OpenCVManager2_InitOpenFrame_m884C1CE53FB08091687269383BD70E4E3B1CF9AF,
+	OpenCVManager2_GetFeatures_mCC559D405B1FC0A95B623388C93DD511292CA80D,
+	OpenCVManager2_GetArucoDrawing_mA46FA82CE7D88744D755CDC0497BFFDB49154CDA,
+	OpenCVManager2_Start_m63B54C2D576A68C27B311750D55BD86C39660225,
+	OpenCVManager2_Update_m40F23DECBA8C4D86BF36AE8D5612B6718F64B89F,
+	OpenCVManager2__ctor_mAA23ECBA7F1952ED74DB2C7A48CE6C01BEE2999E,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[14] = 
+{
+	5805,
+	6263,
+	4296,
+	4296,
+	4296,
+	4296,
+	5805,
+	6263,
+	6043,
+	4296,
+	4296,
+	4296,
+	6411,
+	4296,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	14,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
